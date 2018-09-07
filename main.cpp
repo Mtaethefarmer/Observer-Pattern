@@ -3,6 +3,8 @@ Name: Devone Reynolds
 Date: 3 SEP 18
 Subject: Observer Pattern
 
+An example of the Observer Pattern
+
 UML Diagram:
 https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Observer_w_update.svg/854px-Observer_w_update.svg.png
 **************************************/
@@ -19,7 +21,7 @@ int main()
     // changes
     Messenger message(DryErase);
 
-    // Connect the message 
+    // Connect the message
     // The message will subscribe to this marker
     DryErase.connect(&message);
 
