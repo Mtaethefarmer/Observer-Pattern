@@ -20,7 +20,7 @@ class Messenger:public Observer
   ~Messenger(){};
   
   //Prints state of object
-  virtual void update() override;
+  virtual void update();
   
   private:
   //Reference to the subscribed signal

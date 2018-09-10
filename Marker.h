@@ -10,7 +10,14 @@ Subject: Observer Pattern
 #include "iostream"
 
 //Seletectable Colors
-enum Color{WHITE, BLACK, RED, BLUE, YELLOW};
+typedef enum Color
+{
+  WHITE, 
+  BLACK, 
+  RED, 
+  BLUE, 
+  YELLOW
+}Color;
 
 class Marker: public Signal
 {
