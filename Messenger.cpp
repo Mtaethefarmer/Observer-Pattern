@@ -13,5 +13,4 @@ _marker(mark)
 void Messenger::update()
 {
     std::cout << "Marker has changed to " << _marker.getColor() <<"."<< std::endl;
-    // Testing the GIT Add feature
 }
